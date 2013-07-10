@@ -19,9 +19,9 @@ class PMRealms implements Plugin{
 	
 	public function init(){
 		$this->config = new Config($this->api->plugin->configPath($this)."config.yml", CONFIG_YAML, array(
-			"ownerName" => "",
-			"externalAddress" => "",
-			"externalPort" => "",
+			"ownerName" => "server de oscar",
+			"externalAddress" => "201.191.95.70",
+			"externalPort" => "19132",
 		));
 		
 		$error = 0;
